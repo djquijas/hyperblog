@@ -1,1 +1,5 @@
 Hola mundo, primer commit con git
+
+Se agrega otra linea para practicar todos los comandos
+vistos hasta ahora.
+Fin.

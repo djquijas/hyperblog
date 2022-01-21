@@ -1,5 +1,11 @@
 body {
     background-color: #eee;
     text-align: center;
-    color: #e3e34fff;
+    color: #252202f1;
+}
+
+#cabecera {
+    background-color: aqua;
+    color: cadetblue;
+    border: 1px solid blueviolet;
 }

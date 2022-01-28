@@ -2,6 +2,8 @@ body {
     background-color: #eee;
     text-align: center;
     color: #252202f1;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 #cabecera {
@@ -14,4 +16,8 @@ body {
 #footer {
     background-color: #09f;
     color: aliceblue;
+}
+
+#footer p{
+    margin: 0px;
 }

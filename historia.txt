@@ -4,3 +4,11 @@ Diego Quijas nació de Mexico y tiene 29 años
 Ya no se que poner.
 
 Hoy hablaremos de su historia.
+
+git init = inicia el lugar de trabajo de git
+git status = Muestra el status de los archivos
+git add . = Agrega todos los archivos al stage
+git add <archivo> = Agrega un archivo en especifico al stage
+git rm --cached <archivo> = Elimina el archivo del stage
+git log <archivo> = Muestra el historial de los commit
+git commit -m "Mensaje" = Hace un commit a los archivos que se agregaron al stage

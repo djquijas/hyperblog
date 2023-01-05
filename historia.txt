@@ -17,3 +17,5 @@ git show <archivo> = Muestra los cambios que ha tenido el archivo en comparacion
 git diff <id1> <id2> = Muestra las diferencias entre dos commits .
 git reset <id> --hard = Regresa a la version anterior que se selecciono, eliminando todo lo antenrior
 git reset <id> --soft = Regresa a la version anterrior que se selecciono, pero dejando en staging lo que se tenia
+git checkout <id> <archivo.name> = Regresa a la version seleccionada, y elimina lo anterior hasta que se
+                                   realiza un commit.

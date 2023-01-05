@@ -13,4 +13,5 @@ git rm --cached <archivo> = Elimina el archivo del stage
 git log <archivo> = Muestra el historial de los commit
 git commit -m "Mensaje" = Hace un commit a los archivos que se agregaron al stage
 git show <archivo> = Muestra los cambios que ha tenido el archivo en comparacion del ultimo git
-                     con el git anterior
+                     con el git anterior.
+git diff <id1> <id2> = Muestra las diferencias entre dos commits 

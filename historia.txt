@@ -19,3 +19,5 @@ git reset <id> --hard = Regresa a la version anterior que se selecciono, elimina
 git reset <id> --soft = Regresa a la version anterrior que se selecciono, pero dejando en staging lo que se tenia
 git checkout <id> <archivo.name> = Regresa a la version seleccionada, y elimina lo anterior hasta que se
                                    realiza un commit.
+
+Esta linea se eliminara jaja

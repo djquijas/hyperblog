@@ -43,3 +43,5 @@ git reset HEAD: Este es el comando para sacar archivos del área de staging. No 
 Despues de hacer git log, y el resultado sea muy grande, para salir se tiene que orpimir "q"
 
 git commit -am "mensaje" = Se utiliza para hacer automaticamente el add y commit en la misma linea
+
+git branch <nombre> = Crea nueva rama de trabajo

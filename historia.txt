@@ -44,3 +44,4 @@ Despues de hacer git log, y el resultado sea muy grande, para salir se tiene que
 
 git commit -am "mensaje" = Se utiliza para hacer automaticamente el add y commit en la misma linea
 git checkout <nombre rama> = Se cambia a la rama que se necesite
+git branch = Muestra las ramas que existen

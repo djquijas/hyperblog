@@ -50,3 +50,4 @@ git branch <nombre> = Crea nueva rama de trabajo
 git checkout <nombre rama> = Se cambia a la rama que se necesite
 git branch = Muestra las ramas que existen
 >>>>>>> cabecera
+git merge <brnach> = Fuciona las ramas, en la que estas actualmente y la que eliges

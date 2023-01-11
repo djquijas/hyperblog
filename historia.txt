@@ -49,3 +49,5 @@ git checkout <nombre rama> = Se cambia a la rama que se necesite
 git branch = Muestra las ramas que existen
 git merge <branch> = Fuciona las ramas, en la que estas actualmente y la que eliges
 git remote add origin <direccion repositorio> = Agrega el repositorio Git a un repositorio remoto (GitHub)
+git remote =
+git remote -v =

@@ -51,3 +51,4 @@ git merge <branch> = Fuciona las ramas, en la que estas actualmente y la que eli
 git remote add origin <direccion repositorio> = Agrega el repositorio Git a un repositorio remoto (GitHub)
 git remote =
 git remote -v =
+git push origin master = envia al origen lo que contiene master

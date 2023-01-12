@@ -52,3 +52,5 @@ git remote add origin <direccion repositorio> = Agrega el repositorio Git a un r
 git remote =
 git remote -v =
 git push origin master = envia al origen lo que contiene master
+git pull origin master = trae al master el contenido del origen
+git remote set-url origin <link> = cambia el origen del repositorio remoto

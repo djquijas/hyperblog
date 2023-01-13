@@ -61,3 +61,4 @@ alias <nombre>="comando git" : Crea un alias para comando largos, y los guarda
 git tag -a <version que quieras> -m "mensaje" <hash donde se actualizara>
 git show-ref --tags = Muestra el hash que hace referencia al tag
 git push --tags = Envia los tags a GitHub
+git tag -d <nombre del tag> = Elimina un tag

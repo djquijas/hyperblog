@@ -58,3 +58,5 @@ git remote set-url origin <link> = cambia el origen del repositorio remoto
 git log --all --decorate --graph --oneline = Muestra todos los commits hechos comprimidos y graficamente
 
 alias <nombre>="comando git" : Crea un alias para comando largos, y los guarda
+git tag -a <version que quieras> -m "mensaje" <hash donde se actualizara>
+git show-ref --tags = Muestra el hash que hace referencia al tag

@@ -54,3 +54,5 @@ git remote -v =
 git push origin master = envia al origen lo que contiene master
 git pull origin master = trae al master el contenido del origen
 git remote set-url origin <link> = cambia el origen del repositorio remoto
+
+git log --all --decorate --graph --oneline = Muestra todos los commits hechos comprimidos y graficamente

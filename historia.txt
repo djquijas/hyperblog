@@ -63,3 +63,6 @@ git show-ref --tags = Muestra el hash que hace referencia al tag
 git push --tags = Envia los tags a GitHub
 git tag -d <nombre del tag> = Elimina un tag (Solo lo elimina en Git)
 git push origin :refs/tags/<nombre del tag> (Elimina el tag en GitHub)
+git show-branch --all
+git show-branch
+gitk = Abre en un software las ramas que se han creado y sus commits

@@ -66,3 +66,5 @@ git push origin :refs/tags/<nombre del tag> (Elimina el tag en GitHub)
 git show-branch --all
 git show-branch
 gitk = Abre en un software las ramas que se han creado y sus commits
+git clone <link> = clona un repositorio de GitHub
+git config -l = Muestra las configuraciones de Git en el entorno local

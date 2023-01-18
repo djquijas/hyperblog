@@ -70,3 +70,5 @@ git clone <link> = Clona un repositorio de GitHub en el repositorio local
 git config -l = Muestra las configuraciones de Git en el entorno local
 git log --graph = Muestra en forma de grafica los logs
 git log --stat =
+
+Entidades HTML

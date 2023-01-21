@@ -72,3 +72,7 @@ git log --graph = Muestra en forma de grafica los logs
 git log --stat =
 
 Entidades HTML
+
+Los archivos binarios (imagenes), datos de la API, o de la base de datos, no se deben subir a GIT o 
+GitHub, se deben guardar en un archivo con nombre .gitignore en la raiz del proyecto.
+Para indicar que ignore todos los archivos .jpg es: *.jpg

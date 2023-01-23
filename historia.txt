@@ -78,3 +78,6 @@ GitHub, se deben guardar en un archivo con nombre .gitignore en la raiz del proy
 Para indicar que ignore todos los archivos .jpg es: *.jpg
 
 readme.md (md = markdown) En el archivo readme se puede agregar html
+git rebase <nombre del branch> = Hace cambios en el repositorio sin dejar rastros (Es una mala practica utilizarlo y puede causar problemas)
+                                 Si se utiliza, tienes que estar en la rama secundaria y traer lo que contiene main.
+                                 Despues se pasa a la rama main y se trae lo que contiene la rama secundaria.

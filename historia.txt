@@ -85,7 +85,7 @@ git rebase <nombre del branch> = Hace cambios en el repositorio sin dejar rastro
 git stash = Guarda los cambios en algun lado, y te regresa a la ultima version que tenias antes de dichos cambios
 git stash list = Muestra la lista de los stash
 git stash branch <nombre del branch> = Crea otro branch con lo guardado en el stash 
-git stash pop = Regresa los cambios hechos a la rama principal
+git stash pop = Regresa los cambios hechos a la rama principaldrop
 git stash drop = Elimina los datos guardado en el stash, y no genera cambios
 
 Stashed:
@@ -98,4 +98,6 @@ El stashed nos permite cambiar de ramas, hacer cambios, trabajar en otras cosas 
 git stash
 El comando git stash guarda el trabajo actual del Staging en una lista diseñada para ser temporal llamada Stash, para que pueda ser recuperado en el futuro.
 
-Para agregar los cambios al stash se utiliza el comando:
+git clean --dry-run = Muestra los archivos no deseados que eliminara, pueden ser archivos copiados
+git clean -f = Eimina los archivos
+Este comando no elimina carpetas solo archivos, tampoco elimina archivos en .gitignore

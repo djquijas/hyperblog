@@ -81,3 +81,21 @@ readme.md (md = markdown) En el archivo readme se puede agregar html
 git rebase <nombre del branch> = Hace cambios en el repositorio sin dejar rastros (Es una mala practica utilizarlo y puede causar problemas)
                                  Si se utiliza, tienes que estar en la rama secundaria y traer lo que contiene main.
                                  Despues se pasa a la rama main y se trae lo que contiene la rama secundaria.
+
+git stash = Guarda los cambios en algun lado, y te regresa a la ultima version que tenias antes de dichos cambios
+git stash list = Muestra la lista de los stash
+git stash branch <nombre del branch> = Crea otro branch con lo guardado en el stash 
+git stash pop = Regresa los cambios hechos a la rama principal
+git stash drop = Elimina los datos guardado en el stash, y no genera cambios
+
+Stashed:
+El stashed nos sirve para guardar cambios para después, Es una lista de estados que nos guarda algunos cambios que hicimos en Staging para poder cambiar de rama sin perder el trabajo que todavía no guardamos en un commit
+
+Ésto es especialmente útil porque hay veces que no se permite cambiar de rama, ésto porque porque tenemos cambios sin guardar, no siempre es un cambio lo suficientemente bueno como para hacer un commit, pero no queremos perder ese código en el que estuvimos trabajando.
+
+El stashed nos permite cambiar de ramas, hacer cambios, trabajar en otras cosas y, más adelante, retomar el trabajo con los archivos que teníamos en Staging pero que podemos recuperar ya que los guardamos en el Stash.
+
+git stash
+El comando git stash guarda el trabajo actual del Staging en una lista diseñada para ser temporal llamada Stash, para que pueda ser recuperado en el futuro.
+
+Para agregar los cambios al stash se utiliza el comando:

@@ -7,5 +7,6 @@ Un blog para el curso de [Git/Github](https://platzi.com/clases/1557-git-github/
 * Todos los comandos de Git
 * El flujo de trabajo de GitHub
 * El verdadero amor por las buenas practicas
+* Creado por Diego Quijas
 
 Y como amable recordatorio **Este readme es un chiste**. Diseñado para el ejemplo

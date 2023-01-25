@@ -101,3 +101,5 @@ El comando git stash guarda el trabajo actual del Staging en una lista diseñada
 git clean --dry-run = Muestra los archivos no deseados que eliminara, pueden ser archivos copiados
 git clean -f = Eimina los archivos
 Este comando no elimina carpetas solo archivos, tampoco elimina archivos en .gitignore
+
+git cherry-pick <id log> = Te permite escoger un cambio en una rama secundaria y llevartela a la rama principal

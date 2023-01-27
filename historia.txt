@@ -115,3 +115,18 @@ git reflog
 git commit --amend = Agrega los cambios hechos que no se mandaron al commit. 
                      Es un comando para corregir si se olvido hacer un en el commit anterior. Primero se tiene que hacer un git add
                      al archivo donde se hizo el cambio.
+                     
+git grep <Palabra a buscar> = Busca una palabra dentro de los archivos de los documentos
+git grep color -->use la palabra color
+git grep la --> donde use la palabra la
+git grep -n color–> en que lineas use la palabra color
+git grep -n platzi --> en que lineas use la palabra platzi
+git grep -c la --> cuantas veces use la palabra la
+git grep -c paltzi --> cuantas veces use la palabra platzi
+git grep -c “<p>”–> cuantas veces use la etiqueta <p>
+
+git log-S “cabecera” --> cuantas veces use la palabra cabecera en
+todos los commits.
+
+grep–> para los archivos
+log --> para los commits.

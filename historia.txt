@@ -111,3 +111,7 @@ La gestión de estos cambios es mediante los hash’es de referencia (o ref) que
 .
 Los recoges registran cuándo se actualizaron las referencias de Git en el repositorio local (sólo en el local), por lo que si deseas ver cómo has modificado la historia puedes utilizar el comando:
 git reflog
+
+git commit --amend = Agrega los cambios hechos que no se mandaron al commit. 
+                     Es un comando para corregir si se olvido hacer un en el commit anterior. Primero se tiene que hacer un git add
+                     al archivo donde se hizo el cambio.
